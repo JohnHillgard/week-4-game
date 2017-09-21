@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+
+	  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<h1>CrystalsCollector</h1>
+
+	<div id="instructions">
+
+		<p>You will be given a random number at the start of the game.</p>
+
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+
+		<p>Each time when the game starts, the game will change the value of each crystal.</p>
+
+	</div>
+
+	<h1 id="targetNumber"></h1>
+
+	<div id="record">
+		<p id="last-result"></p>
+		<p id="win-tracker"></p>
+		<p id="loss-tracker"></p>
+	</div>
+
+	<div id="crystals">
+		<button id="btn btn-one"><img src=http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg height="100px" width="100px"></button>
+
+		<button id="btn btn-two"><img src=http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg height="100px" width="100px"></button>
+
+		<button id="btn btn-three"><img src=http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg height="100px" width="100px"></button>
+
+		<button id="btn btn-four"><img src=http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg height="100px" width="100px"></button>
+
+	</div>
+
+	<div> Your total score is: </div>
+
+	<div id="score"></div>
+
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+</body>
+</html>
